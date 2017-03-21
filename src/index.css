@@ -1,0 +1,21 @@
+$font-style:     Heveltica, sans-serif;
+$div-fonts:      Arial, sans-serif;
+$primary-color:   black;
+$main-color:      rgb(46, 218, 151);
+$secondary-color: rgb(199, 109, 109);
+$tri-color:       rgb(87, 179, 238);
+
+
+
+body {
+  margin: 0;
+  padding: 40px;
+  font: 100% $font-style;
+}
+
+div#root {
+  margin: auto;
+  border-width: medium;
+  border-image: url("/store/borderimage.png");
+
+}
